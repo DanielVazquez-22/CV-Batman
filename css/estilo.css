@@ -9,7 +9,8 @@ background-color: #E6E6E6;
 
 .img-portada{
     text-align: center;
-    width: 10%;
+    width: 7%;
+    padding-top: 10px;
 }
 
 h1{
@@ -42,3 +43,9 @@ iconosfooter{
 width: 20px;
 }
 
+@media (max-width: 480px)
+    {
+        .img-portada
+        {width: 15%;
+        padding-top: 10px;}
+    }
